@@ -1,7 +1,7 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarItem, Link, Button} from "@nextui-org/react";
-import { AcmeLogo } from "./AcmeLogo";
-import { ThemeSwitcher } from "./DarkmodeButton";
+import { Navbar, NavbarBrand, NavbarContent, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarItem, Link, Button } from "@nextui-org/react";
+import { AcmeLogo } from "../utils/AcmeLogo";
+import { ThemeSwitcher } from "../utils/DarkmodeButton";
 import { Bio } from "@/data/constants";
 
 const NavbarComponent = () => {
@@ -63,7 +63,7 @@ const NavbarComponent = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-            <ThemeSwitcher/>
+          <ThemeSwitcher />
         </NavbarItem>
         <NavbarItem className="flex">
           <Button as={Link} target="_blank" color="primary" href={Bio.github} variant="bordered">

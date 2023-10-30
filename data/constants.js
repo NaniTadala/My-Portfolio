@@ -119,10 +119,27 @@ export const projectsTab = [
 export const projectsCard = [
   {
     id: 1,
-    title: "Promptverse",
-    date: "Jun 2023 - Jul 2023",
+    title: "Portfolio Website",
+    date: "Oct 2023 - Oct 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently.",
+      "Explore my personal portfolio website to discover more about me, my skills, and my passion for creativity. This platform showcases a curated selection of my projects, giving you a glimpse into my journey as a web developer. You'll find information about my background, the technologies I work with, and links to my social profiles. This website is a reflection of my dedication to crafting digital experiences and sharing my work with the world.",
+    image:
+      "/portfolio.png",
+    tags: [
+      "NextJS",
+      "ReactJS",
+      "Typescript",
+      "NextUI",
+    ],
+    category: "web app",
+    github: "https://github.com/NaniTadala/My-Portfolio",
+  },
+  {
+    id: 2,
+    title: "Promptverse",
+    date: "Sep 2023 - Oct 2023",
+    description:
+      "Promptverse is an innovative platform that empowers users to explore, create, and share prompt to generate captivating images by AI tools like midjourney. It's your canvas for artistic expression in the digital age! With Promptverse, you have the power to experiment and bring your artistic visions to life effortlessly. It provides a wide array of images of generative AI prompts, enabling you to seamlessly generate stunning, one-of-a-kind images with just a click.",
     image:
       "/promptverse.png",
     tags: [
@@ -136,35 +153,23 @@ export const projectsCard = [
       "NextAuth",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/NaniTadala/Promptverse",
   },
   {
-    id: 2,
+    id: 3,
     title: "Course Selling App",
-    date: "Apr 2023 - May 2023",
+    date: "Jul 2023 - Aug 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      `Developed a full-stack web application "LearnUp" app, a platform with two clients __
+      1️⃣ Admins can effortlessly log in or create a new account for access.
+      They have the power to Create, Update, and Delete courses with ease.
+      2️⃣ Users can also log in or create their accounts seamlessly.
+      They can explore and purchase courses that align with their interests and goals.`,
     image:
       "/learnup.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Recoil"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/NaniTadala/Course-Selling-App-MERN",
   },
 ]
 
