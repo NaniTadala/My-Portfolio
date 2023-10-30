@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/NaniTadala",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1GTzZCybhAeQPKF1uJuK5IZPIj9AhosBK/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/narayana-swamy-tadala-3a233b19b/",
   twitter: "https://twitter.com/nani_tadala",
 };
@@ -184,11 +184,9 @@ export const educationDetails = [
     desc: `I have dome my Bachelors in
     Civil Engineering at Aditya Engineering College,
     Surampalem. 
-    I have an overall CGPA of 8.62. I have taken
-    courses in Data Structures, Algorithms,
-    Object-Oriented Programming, Database
-    Management Systems, Operating Systems, and
-    Computer Networks, among others. I am also a
+    I have an overall CGPA of 8.62. With my interest
+    in tech I have learnt web development and want to
+    pursue a career in it. I am also a
     member of the 100x devs club, where I am learning and
     working on exciting projects with a team of
     talented developers.`

@@ -9,16 +9,12 @@ const NavbarComponent = () => {
   const [active, setIsActive] = React.useState('home');
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "About",
+    "Skills",
+    "Projects",
+    "Education",
+    "Contact",
+    "Github profile",
   ];
 
   return (
@@ -75,11 +71,9 @@ const NavbarComponent = () => {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
+              color="foreground"
               className="w-full"
-              href="#"
+              href={`#${item === 'About' ? '' : item.toLowerCase()}`}
               size="lg"
             >
               {item}

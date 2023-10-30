@@ -65,7 +65,7 @@ const Projects = () => {
                                             <p className="text-tiny uppercase font-bold">
                                                 {project.date}
                                             </p>
-                                            <small className="text-default-500">
+                                            <small className="text-default-500 mb-2">
                                                 {project.description}
                                             </small>
                                             <Button
