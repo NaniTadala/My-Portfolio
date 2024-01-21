@@ -41,7 +41,7 @@ const About = () => {
                 <Image
                     width={400}
                     height={400}
-                    src="https://media.licdn.com/dms/image/D5603AQGKWjQGzVLyrw/profile-displayphoto-shrink_800_800/0/1693449309508?e=1703116800&v=beta&t=Our8Mx7HlpJwb85OHBnT85Q_1D3_NSB_MtsTNK6AgWY"
+                    src="/profilepicture.jpg"
                     alt="profile-picture"
                     className="sm:w-96 sm:h-96 w-72 h-72 border-2 border-[#7828c8] rounded-full md:order-2 mx-auto md:mx-0 z-10"
                 />

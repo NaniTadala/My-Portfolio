@@ -14,7 +14,6 @@ const NavbarComponent = () => {
     "Projects",
     "Education",
     "Contact",
-    "Github profile",
   ];
 
   return (
