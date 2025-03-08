@@ -181,15 +181,12 @@ export const educationDetails = [
     course: "Bachelor of Technology, Civil Engineering",
     timeline: "2020 - 2023",
     grade: "8.62",
-    desc: `I have dome my Bachelors in
+    desc: `I have done my Bachelors in
     Civil Engineering at Aditya Engineering College,
     Surampalem. 
     I have an overall CGPA of 8.62. With my interest
     in tech I have learnt web development and want to
-    pursue a career in it. I am also a
-    member of the 100x devs club, where I am learning and
-    working on exciting projects with a team of
-    talented developers.`
+    pursue a career in it.`
   },
   {
     id: 2,
